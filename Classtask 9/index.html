@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code In Place</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body{
+            margin: 0%;
+            padding: 0%;
+        }
+        form{
+            width: 30%;
+        height: 100vh;
+        margin: 0% auto;
+        margin-top: 0px;
+        padding: 0px 20px 0px 20px;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+              
+        }
+        h6{
+        text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 40px;
+        font-weight: lighter;
+        margin: 0%;
+        padding-top: 10px;
+        padding-bottom: 20px;
+       
+        }
+        img{
+            width: 250px;
+        }
+        .input{
+            display:  flex;
+            flex-direction : column;
+            gap : 10px;
+        }
+        .email{
+            background-image:url('./images/envelope-solid.svg') ;
+            background-size: 15px 15px;  
+            background-position: 15px center;
+            background-repeat: no-repeat;
+            padding-left: 40px;
+            border: 1px solid rgb(235, 221, 221);
+            width: 250px;
+            border-radius: 5px;
+             margin: auto;
+             padding-top: 10px;
+            padding-bottom: 10px;
+            padding-right: 0px;
+            font-size: 17px;
+            cursor: pointer;
+            box-shadow:  5px 5px 12px #cfcccc,
+            -5px -5px 2px #ffffff;
+            }
+            .email:hover{
+                color: rgb(245, 241, 241);
+                background-color: rgb(13, 110, 253);
+            }
+            
+            input[type='text']{
+            background-image:url('./images/google-brands.svg') ;
+            background-size: 15px 15px;  
+            background-position: 20px center;
+            background-repeat: no-repeat;
+            padding-left: 40px;
+            border: 1px solid rgb(235, 221, 221);
+            width: 250px;
+            border-radius: 5px;
+             margin: auto;
+             padding-top: 10px;
+            padding-bottom: 10px;
+            padding-right: 0px;
+            font-size: 17px;
+            cursor: pointer;
+            box-shadow:  5px 5px 12px #cfcccc,
+             -5px -5px 2px #ffffff;
+            }
+            input[type='text']:hover{
+                color: white;
+                background-color: rgb(13, 110, 253);
+            }
+            .or{
+                display: flex;
+                color: rgb(124, 120, 120);
+                font-size: 20px;
+                padding-top: 20px;
+                padding-bottom: 20px;
+            }
+            hr{
+                width:150px;
+                height:0px;
+                
+            }
+            button{
+                border-radius: 5px;
+                margin: auto;
+                padding: 10px;
+                width: 300px;
+                color: rgb(119, 119, 123);
+                border: none;
+                font-size: 17px;
+                cursor: pointer;
+                background-color: white;
+            }
+            button:hover{
+                background-color:  rgb(201, 201, 204) ;
+                color: rgb(8, 8, 8);
+            }
+    </style>
+</head>
+<body>
+    <form>
+        <img src="./images/stanford.png"  alt="Code in Place">
+        <h6>Code in Place</h6>
+    <div class="input">
+        <input type="text"  placeholder=" Continue with Google"> 
+        <input type="email" class="email" placeholder="Continue with One-Time Link">
+        <div class="or">
+            <hr >
+            OR
+            <hr>
+        </div>
+        <button>Create an Account</button>
+        <button>I have an Account</button>
+    </div>
+</form>
+
+</body>
+</html>
